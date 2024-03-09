@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css" type="text/css">
+    <title>
+        
+    </title>
+</head>
+<body>
+
+
+  <form method="post">
+
+    <input type="text" name="item" placeholder="feijao">
+    <button type="submit" name="submit" value="inserir">Inserir</button>
+
+  </form>
+    
+  <div class="tarefas">
+    
+    <% for(let i = 0; i < ListaMercado.length; i++){ %>
+        <p><%=ListaMercado[i] %> <a href="/deletar/<%= i%>"><button>Excluir</button></a></p>    
+ 
+        <%  }  %>
+  </div>
+
+</body>
+</html>

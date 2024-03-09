@@ -1,0 +1,23 @@
+1. Implemente um programa em PHP utilizando a arquitetura MVC que disponibilize a funcionalidade de um CRUD para ser operado
+pelo usuário, conforme visto em aula. A entidade que será utilizada como tema do CRUD pode ser escolhida pelos alunos. 
+Exemplos: pessoa, jogo, personagem, ponto turístico, piloto, cidades...
+
+Requisitos:
+
+    1.1- Os dados da entidade base do CRUD devem ser salvos em uma base de dados. A tabela utilizada deve possuir um campo ID
+com auto incremento.
+    1.2- O programa em PHP deve ter todas as funcionalidade do CRUD (inserção, listagem, alteração e exclusão).
+    1.3- O formulário para inserir e alterar a entidade deve ter no mínimo 6 campos, sendo ao menos 3 do tipo SELECT.
+    1.4- Devem haver no mínimo duas relações com outras tabelas na base de dados. Em aula, fizemos a relação do aluno com o 
+curso. Neste sentido, a base de dados possuirá 3 tabelas (no mínimo), sendo 2 com dados fixos e 1 referente ao CRUD.
+    1.5- O programa deve validar todos os campos do formulário como obrigatórios. A validação deve ser feita no back-end 
+(servidor). Também implemente outras validações que julgue necessário.
+        - ATENÇÃO: a utilização do atributo required no campo a ser preenchido não será aceita. Este atributo não deve ser 
+adicionado, pois dificulta a implementação da validação no servidor.
+    1.6- As interfaces do programa devem ser estilizadas utilizando o framework de CSS Bootstrap.
+    1.7- A data de entrega desta atividade é 08/11/2023, sendo que a mesma deverá ser apresentada ao professor em sala de aula.
+        - ATENÇÃO: não haverá postergações.
+
+Dicas:
+– Não esqueça de fazer um script SQL para criar as tabelas da base de dados, bem como para inserir os dados das tabelas 
+fixas que serão relacionadas com a tabela base do CRUD. Assim, será mais simples criá-la em outro ambiente caso seja necessário.
